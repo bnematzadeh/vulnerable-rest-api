@@ -2,6 +2,8 @@
 
 A vulnerable RESTful application written in Node and React based on [OWASP 2023](https://owasp.org/API-Security/editions/2023/en/0x11-t10/) and more!
 
+![Logo](https://raw.githubusercontent.com/bnematzadeh/vulnerable-rest-api/main/client/src/public/logo.png)
+
 # How to install
 
 ```
