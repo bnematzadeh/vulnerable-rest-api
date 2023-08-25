@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: sans-serif;
+  background-image: url("public/back.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.clickable {
+  cursor: pointer;
+}
+

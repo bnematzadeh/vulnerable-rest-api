@@ -1,0 +1,42 @@
+{
+  "name": "vulnerable-api-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "joi-browser": "^13.4.0",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.6.2",
+    "query-string": "^8.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^16.4.1",
+    "react-notification-system": "^0.4.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^5.0.1",
+    "react-social-icons": "^5.15.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

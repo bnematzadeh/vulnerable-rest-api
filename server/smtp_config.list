@@ -1,0 +1,4 @@
+smtp_username=USERNAME
+smtp_password=PASSWORD
+smtp_provider=SMTP PROVIDER
+smtp_port=PORT

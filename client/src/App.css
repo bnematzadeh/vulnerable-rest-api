@@ -1,0 +1,62 @@
+.starter-template {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+form.edit{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form.edit h1{
+  text-align: center;
+}
+
+form.login, form.register, form.about{
+    max-width: 400px;
+    margin: 0 auto;
+}
+input{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px 7px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button{
+    cursor: pointer;
+    background-color: #555;
+    border:0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 0;
+}
+
+form.login h1, form.register h1, form.about{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.profile li, h1, h2, p{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 15px;
+}
+
+.books, .authors, .about, .users{
+  margin-top: 40px;
+}
+
+tr{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+

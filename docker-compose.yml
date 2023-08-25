@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+  client:
+    depends_on:
+      - api
+    build: ./client
+    ports:
+      - 3000:3000
+  api:
+    depends_on:
+      - db
+    build: ./server
+    ports:
+      - 3001:3001
+    environment:
+      DB_URL: mongodb://db/vulnerable-rest-api
+    env_file:
+      - ./server/smtp_config.list
+    command: ./docker-entrypoint.sh
+  db:
+    image: mongo:6.0
+    ports:
+      - 27017:27017
+    volumes:
+      - rest-api:/data/db
+volumes:
+  rest-api:

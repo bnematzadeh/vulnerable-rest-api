@@ -1,0 +1,3 @@
+{
+    "db":"mongodb://localhost/vulnerable-rest-api-test"
+}

@@ -1,0 +1,4 @@
+{
+    "apiEndpoint": "http://localhost:3001/api",
+    "thirdParty": "https://my-json-server.typicode.com/bnematzadeh/third-party-api/users"
+}
