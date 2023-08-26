@@ -36,12 +36,13 @@ Make sure you have already installed Node and MongoDB on your system.
   - ```npm start```
   - Access the Application via http://localhost:3000
 - Server Setup
-  - Set your SMTP credentials as environment variables based on server/config/custom-environment-variables.json  
-  - ```cd server/ ```
-  - ```npm install```
-  - ```npm install migrate-mongo --dev-save && npm run db:up```
-  - ```npm start```
-  - The API is available on http://localhost:3001
+  - Set your SMTP credentials as environment variables based on server/config/custom-environment-variables.json
+  - Make sure the mongodb service is running 
+    - ```cd server/ ```
+    - ```npm install```
+    - ```npm install migrate-mongo --dev-save && npm run db:up```
+    - ```npm start```
+    - The API is available on http://localhost:3001
 
 # Vulnerabilities
 - API1:2023 - Broken Object Level Authorization
