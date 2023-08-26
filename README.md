@@ -31,16 +31,30 @@ Access the Application
 # Option 2 (Manual)
 Make sure you have already installed Node and MongoDB on your system. 
 - Client Setup
-    ```cd client/```
-    ```npm install ```
-    ```npm start ```
+    ~~~
+    cd client/
+    ~~~
+    ~~~
+    npm install
+    ~~~
+    ~~~
+    npm start
+    ~~~
   - Access the Application via http://localhost:3000
 - Server Setup
   - Set your SMTP credentials as environment variables based on server/config/custom-environment-variables.json  
-    ```cd server/  ```
-    ```npm install ```
-    ```npm install migrate-mongo --save-dev && npm run db:up ```
-    ```npm start ```
+    ~~~
+    cd server/
+    ~~~
+    ~~~
+    npm install
+    ~~~
+    ~~~
+    npm install migrate-mongo --save-dev && npm run db:up
+    ~~~
+    ~~~
+    npm start
+    ~~~
   - The API is available on http://localhost:3001
 
 # Vulnerabilities
