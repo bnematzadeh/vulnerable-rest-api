@@ -23,6 +23,11 @@ Add your SMTP credentials and provider in server/smtp_config.list. I personally 
 ```
 docker-compose up --build
 ```
+Access the Application
+
+- Client: localhost:3000
+- API: localhost:3001
+  
 # Vulnerabilities
 - API1:2023 - Broken Object Level Authorization
 - API2:2023 - Broken Authentication
@@ -39,8 +44,3 @@ docker-compose up --build
   - Web Cache Deception
   - Weak Implementation of Reset Password (Account Takeover)
 
-
-Access the Application
-
-- Client: localhost:3000
-- API: localhost:3001
