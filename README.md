@@ -34,7 +34,7 @@ Make sure you have already installed Node and MongoDB on your system.
   - ```cd client/ ```
   - ```npm install```
   - ```npm start```
-  - Access the Application via http://localhost:3000
+  - Access the application via http://localhost:3000
 - Server Setup
   - Set your SMTP credentials as environment variables based on server/config/custom-environment-variables.json
   - Make sure the mongodb service is running 
