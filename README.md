@@ -5,7 +5,7 @@ A vulnerable RESTful application written in Node and React based on [OWASP API s
 ![Logo](https://raw.githubusercontent.com/bnematzadeh/vulnerable-rest-api/main/client/src/public/logo.png)
 
 # How to install
-# Option 1 (recommended)
+# Option 1: Run on Docker (recommended)
 ```
 git clone https://github.com/bnematzadeh/vulnerable-rest-api.git
 ```
@@ -28,7 +28,7 @@ Access the Application
 - Client: localhost:3000
 - API: localhost:3001
 
-# Option 2 (Manual)
+# Option 2: Run on Your Machnie (Manual Installation)
 Make sure you have already installed Node and MongoDB on your system. 
 - Client Setup
   - ```cd client/ ```
