@@ -28,7 +28,7 @@ Access the Application
 - Client: localhost:3000
 - API: localhost:3001
 
-# Option 2: Run on Your Machnie (Manual Installation)
+# Option 2: Run on Your Machine (Manual Installation)
 Make sure you have already installed Node and MongoDB on your system. 
 - Client Setup
   - ```cd client/ ```
