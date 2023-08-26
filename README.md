@@ -23,6 +23,22 @@ Add your SMTP credentials and provider in server/smtp_config.list. I personally 
 ```
 docker-compose up --build
 ```
+# Vulnerabilities
+- API1:2023 - Broken Object Level Authorization
+- API2:2023 - Broken Authentication
+- API3:2023 - Broken Object Property Level Authorization
+- API4:2023 - Unrestricted Resource Consumption
+- API5:2023 - Broken Function Level Authorization
+- API6:2023 - Unrestricted Access to Sensitive Business Flows
+- API7:2023 - Server Side Request Forgery
+- API8:2023 - Security Misconfiguration
+- API9:2023 - Improper Inventory Management
+- API10:2023 - Unsafe Consumption of APIs
+- Bonus
+  - Injection
+  - Web Cache Deception
+  - Weak Implementation of Reset Password (Account Takeover)
+
 
 Access the Application
 
