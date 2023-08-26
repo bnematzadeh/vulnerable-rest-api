@@ -5,7 +5,7 @@ A vulnerable RESTful application written in Node and React based on [OWASP API s
 ![Logo](https://raw.githubusercontent.com/bnematzadeh/vulnerable-rest-api/main/client/src/public/logo.png)
 
 # How to install
-
+# Option 1 (recommended)
 ```
 git clone https://github.com/bnematzadeh/vulnerable-rest-api.git
 ```
@@ -27,7 +27,22 @@ Access the Application
 
 - Client: localhost:3000
 - API: localhost:3001
-  
+
+# Option 2 (Manual)
+Make sure you have already installed Node and MongoDB on your system. 
+- Client Setup
+  - ``` cd client/```
+  - ``` npm install ```
+  - ``` npm start ```
+  - Access the Application via http://localhost:3000
+- Server Setup
+  - Set your SMTP credentials as environment variables based on server/config/custom-environment-variables.json  
+  - ``` cd server/  ```
+  - ``` npm install ```
+  - ``` npm install migrate-mongo --save-dev && npm run db:up ```
+  - ``` npm start ```
+  - The API is available on http://localhost:3001
+
 # Vulnerabilities
 - API1:2023 - Broken Object Level Authorization
 - API2:2023 - Broken Authentication
