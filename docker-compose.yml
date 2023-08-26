@@ -16,7 +16,7 @@ services:
       DB_URL: mongodb://db/vulnerable-rest-api
     env_file:
       - ./server/smtp_config.list
-    command: ./docker-entrypoint.sh
+    command: ["sh", "docker-entrypoint.sh"]
   db:
     image: mongo:6.0
     ports:
