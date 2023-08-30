@@ -61,6 +61,8 @@ The API Does not properly validate and sanitize data gathered from other APIs. T
     - Credentials:
       - Username: admin
       - Password: admin1234
+- Weak Implementation of Reset Password (Account Takeover)
+  - POST /api/users/verify
 
 # Security Misconfiguration
 
@@ -96,8 +98,3 @@ Users can invite their friends and gain credit for each friend who has joined th
 # Web Cache Deception
 
 - Vulnerable Endpoint: GET /api/me
-
-# Weak Implementation of Reset Password (Account Takeover)
-
-- Vulnerable Endpoint
-  - POST /api/users/verify
