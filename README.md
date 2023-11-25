@@ -2,7 +2,7 @@
 
 A vulnerable RESTful application written in Node and React based on [OWASP API security top 10 2023 edition](https://owasp.org/API-Security/editions/2023/en/0x11-t10/). Common API vulnerabilities and attack scenarios are also included to make it more comprehensive.
 
-![Logo](https://raw.githubusercontent.com/bnematzadeh/vulnerable-rest-api/main/client/src/public/logo.png)
+![Logo](https://raw.githubusercontent.com/bnematzadeh/vulnerable-rest-api/main/client/src/public/logo-home.png)
 
 # How to install
 ## Option 1: Run on Docker (recommended)
